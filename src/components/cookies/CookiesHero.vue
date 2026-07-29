@@ -3,7 +3,7 @@ import { CalendarDays, ChevronRight } from '@lucide/vue'
 </script>
 
 <template>
-  <section class="privacy-hero cookies-hero">
+  <section class="privacy-hero cookies-hero" data-aos="fade-up">
     <div class="page-container privacy-hero__grid">
       <div class="privacy-hero__content">
         <nav class="privacy-breadcrumb" aria-label="Breadcrumb">

@@ -3,7 +3,7 @@ import { benefits } from '@/data/benefits'
 </script>
 
 <template>
-  <section id="benefits" class="benefits-section section-anchor">
+  <section id="benefits" class="benefits-section section-anchor" data-aos="fade-up">
     <div class="page-container benefits-section__shell">
       <h2>Benefícios que fazem a diferença no dia a dia do seu pet shop</h2>
       <div class="benefits-section__grid">

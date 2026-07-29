@@ -33,7 +33,7 @@ const submitContactForm = async () => {
 </script>
 
 <template>
-  <section id="cta" class="cta-section section-anchor">
+  <section id="cta" class="cta-section section-anchor" data-aos="fade-up">
     <div class="page-container cta-section__shell">
       <div class="cta-section__content">
         <h2>Pronto para simplificar a gestão<br />do seu pet shop?</h2>

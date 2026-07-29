@@ -7,7 +7,7 @@ import SocialLinks from '@/components/layout/SocialLinks.vue'
 </script>
 
 <template>
-  <footer class="site-footer">
+  <footer class="site-footer" data-aos="fade-up">
     <div class="page-container site-footer__grid">
       <div class="site-footer__brand">
         <img src="/assets/logo.svg" alt="Petly" width="126" height="56" />

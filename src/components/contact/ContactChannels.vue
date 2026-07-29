@@ -4,7 +4,7 @@ import { contactChannels } from '@/data/contact'
 </script>
 
 <template>
-  <section class="contact-channels" aria-label="Canais de contato">
+  <section class="contact-channels" aria-label="Canais de contato" data-aos="fade-up">
     <div class="page-container contact-channels__grid">
       <article v-for="channel in contactChannels" :key="channel.title" class="contact-channel-card">
         <div

@@ -12,7 +12,12 @@ const purchaseBenefits = [
 </script>
 
 <template>
-  <section id="pricing" class="pricing-section section-anchor" aria-labelledby="pricing-title">
+  <section
+    id="pricing"
+    class="pricing-section section-anchor"
+    aria-labelledby="pricing-title"
+    data-aos="fade-up"
+  >
     <div class="page-container pricing-section__container">
       <header class="pricing-section__header">
         <h2 id="pricing-title">Um plano para cada fase do seu pet shop.</h2>

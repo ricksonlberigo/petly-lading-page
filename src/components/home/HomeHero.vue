@@ -5,7 +5,7 @@ import { trackEvent } from '@/services/analyticsService'
 </script>
 
 <template>
-  <section id="top" class="hero-section">
+  <section id="top" class="hero-section" data-aos="fade-up">
     <div class="page-container hero-section__grid">
       <div class="hero-section__content">
         <div class="hero-section__title-wrap">

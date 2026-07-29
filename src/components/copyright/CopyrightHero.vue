@@ -3,7 +3,7 @@ import { CalendarDays, ShieldCheck } from '@lucide/vue'
 </script>
 
 <template>
-  <section class="copyright-hero">
+  <section class="copyright-hero" data-aos="fade-up">
     <div class="page-container copyright-hero__grid">
       <div class="copyright-hero__content">
         <span><ShieldCheck />Informações legais</span>

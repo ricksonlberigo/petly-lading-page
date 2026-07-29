@@ -3,7 +3,7 @@ import { productPillars } from '@/data/about'
 </script>
 
 <template>
-  <section class="about-product">
+  <section class="about-product" data-aos="fade-up">
     <div class="page-container about-product__pillars">
       <article v-for="pillar in productPillars" :key="pillar.title">
         <div><component :is="pillar.icon" aria-hidden="true" /></div>

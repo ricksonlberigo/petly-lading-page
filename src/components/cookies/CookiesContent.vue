@@ -3,7 +3,7 @@ import { cookiePolicySections, cookieTypes } from '@/data/cookies'
 </script>
 
 <template>
-  <section class="cookies-content">
+  <section class="cookies-content" data-aos="fade-up">
     <div class="page-container privacy-content__layout">
       <aside class="privacy-index">
         <h2>Neste conteúdo</h2>

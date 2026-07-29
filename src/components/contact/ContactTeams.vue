@@ -4,7 +4,7 @@ import { contactTeams } from '@/data/contact'
 </script>
 
 <template>
-  <section class="contact-teams">
+  <section class="contact-teams" data-aos="fade-up">
     <div class="page-container">
       <h2>Fale com o time certo</h2>
       <p>Escolha o canal ideal para o que você precisa.</p>

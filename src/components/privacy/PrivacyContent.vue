@@ -6,7 +6,7 @@ const cardSections = privacySections.slice(4)
 </script>
 
 <template>
-  <section class="privacy-content">
+  <section class="privacy-content" data-aos="fade-up">
     <div class="page-container privacy-content__layout">
       <aside class="privacy-index">
         <h2>Neste conteúdo</h2>

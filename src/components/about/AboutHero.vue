@@ -1,5 +1,5 @@
 <template>
-  <section class="about-hero">
+  <section class="about-hero" data-aos="fade-up">
     <div class="page-container about-hero__grid">
       <div class="about-hero__content">
         <div class="about-hero__title">

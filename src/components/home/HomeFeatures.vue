@@ -4,7 +4,7 @@ import { features } from '@/data/features'
 </script>
 
 <template>
-  <section id="features" class="features-section section-anchor">
+  <section id="features" class="features-section section-anchor" data-aos="fade-up">
     <div class="page-container features-section__shell">
       <div class="features-section__intro">
         <h2>Tudo que seu pet shop<br />precisa, <span>em um só sistema.</span></h2>

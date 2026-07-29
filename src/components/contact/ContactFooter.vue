@@ -7,7 +7,7 @@ import SocialLinks from '@/components/layout/SocialLinks.vue'
 </script>
 
 <template>
-  <footer id="contact-footer" class="contact-footer">
+  <footer id="contact-footer" class="contact-footer" data-aos="fade-up">
     <div class="page-container contact-footer__grid">
       <div class="contact-footer__brand">
         <img src="/assets/logo.svg" alt="Petly" width="142" height="62" />

@@ -34,7 +34,7 @@ const submitContactForm = async () => {
 </script>
 
 <template>
-  <section class="contact-intro">
+  <section class="contact-intro" data-aos="fade-up">
     <div class="page-container contact-intro__grid">
       <div class="contact-intro__content">
         <span class="contact-eyebrow"><ShieldCheck /> Estamos aqui para ajudar</span>

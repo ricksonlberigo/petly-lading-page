@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-cta">
+  <section class="contact-cta" data-aos="fade-up">
     <div class="page-container contact-cta__shell">
       <div class="contact-cta__content">
         <div class="contact-cta__title">

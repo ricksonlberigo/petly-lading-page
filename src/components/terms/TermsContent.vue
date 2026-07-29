@@ -18,7 +18,7 @@ const navigateToSection = async (event: MouseEvent, index: number, id: string) =
 </script>
 
 <template>
-  <section class="terms-content">
+  <section class="terms-content" data-aos="fade-up">
     <div class="page-container terms-content__layout">
       <aside class="privacy-index terms-index">
         <h2>Neste conteúdo</h2>

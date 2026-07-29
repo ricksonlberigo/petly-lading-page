@@ -4,7 +4,7 @@ import { faqItems } from '@/data/faq'
 </script>
 
 <template>
-  <section id="faq" class="faq-section section-anchor">
+  <section id="faq" class="faq-section section-anchor" data-aos="fade-up">
     <div class="page-container">
       <h2>Perguntas frequentes</h2>
       <BaseAccordion :items="faqItems" />

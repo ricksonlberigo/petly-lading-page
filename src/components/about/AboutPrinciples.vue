@@ -4,7 +4,7 @@ import { aboutCards } from '@/data/about'
 </script>
 
 <template>
-  <section class="about-principles">
+  <section class="about-principles" data-aos="fade-up">
     <div class="page-container about-principles__grid">
       <article v-for="card in aboutCards" :key="card.title" class="about-principle-card">
         <div class="about-principle-card__icon" :class="`about-principle-card__icon--${card.tone}`">

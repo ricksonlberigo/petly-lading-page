@@ -3,7 +3,7 @@ import { copyrightPermissions, copyrightRules } from '@/data/copyright'
 </script>
 
 <template>
-  <section class="copyright-content">
+  <section class="copyright-content" data-aos="fade-up">
     <div class="page-container copyright-content__grid">
       <div class="copyright-rules">
         <article v-for="rule in copyrightRules" :key="rule.title">

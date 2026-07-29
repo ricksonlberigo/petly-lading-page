@@ -3,7 +3,7 @@ import { storyPoints } from '@/data/about'
 </script>
 
 <template>
-  <section class="about-story">
+  <section class="about-story" data-aos="fade-up">
     <div class="page-container about-story__grid">
       <div class="about-story__content">
         <h2>Feito para pet shops,<br />pensado para pessoas.</h2>

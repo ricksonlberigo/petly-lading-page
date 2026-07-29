@@ -1,5 +1,5 @@
 <template>
-  <section class="copyright-cta">
+  <section class="copyright-cta" data-aos="fade-up">
     <div class="page-container copyright-cta__shell">
       <div class="copyright-cta__symbol">♥</div>
       <div>

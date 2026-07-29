@@ -1,5 +1,5 @@
 <template>
-  <section class="about-cta">
+  <section class="about-cta" data-aos="fade-up">
     <div class="page-container about-cta__shell">
       <div>
         <h2>Vamos transformar a gestão<br />do seu pet shop juntos?</h2>
