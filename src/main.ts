@@ -4,9 +4,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import App from './App.vue'
 import router from './router'
+import { tiltDirective } from './directives/tilt'
 import './styles/main.css'
 
-createApp(App).use(router).mount('#app')
+createApp(App).directive('tilt', tiltDirective).use(router).mount('#app')
 
 AOS.init({
   duration: 650,

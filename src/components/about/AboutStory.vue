@@ -19,7 +19,10 @@ import { storyPoints } from '@/data/about'
           </li>
         </ul>
       </div>
-      <div class="about-story__dashboard">
+      <div
+        v-tilt="{ max: 3.5, scale: 1.008, glare: true, 'max-glare': 0.06 }"
+        class="about-story__dashboard"
+      >
         <img
           src="/assets/responsive/petly-dashboard-desktop-1200.webp"
           srcset="

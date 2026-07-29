@@ -51,7 +51,10 @@ import { trackEvent } from '@/services/analyticsService'
             fetchpriority="high"
           />
         </picture>
-        <div class="hero-visual__dashboard-frame">
+        <div
+          v-tilt="{ max: 3.5, scale: 1.008, glare: true, 'max-glare': 0.06 }"
+          class="hero-visual__dashboard-frame"
+        >
           <img
             class="hero-visual__dashboard"
             src="/assets/responsive/petly-dashboard-desktop-960.webp"

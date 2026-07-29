@@ -9,7 +9,10 @@ import { features } from '@/data/features'
       <div class="features-section__intro">
         <h2>Tudo que seu pet shop<br />precisa, <span>em um só sistema.</span></h2>
         <p>Do atendimento à gestão financeira, o Petly centraliza suas operações para você focar no que realmente importa: seus clientes e seus pets.</p>
-        <div class="device-mockups">
+        <div
+          v-tilt="{ max: 5, scale: 1.01, glare: false, perspective: 1500 }"
+          class="device-mockups"
+        >
           <picture>
             <source
               media="(min-width: 1101px)"
