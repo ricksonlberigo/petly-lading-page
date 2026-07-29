@@ -2,8 +2,8 @@
 import { onMounted } from 'vue'
 import CopyrightContent from '@/components/copyright/CopyrightContent.vue'
 import CopyrightCta from '@/components/copyright/CopyrightCta.vue'
-import CopyrightFooter from '@/components/copyright/CopyrightFooter.vue'
 import CopyrightHero from '@/components/copyright/CopyrightHero.vue'
+import AppFooter from '@/components/layout/AppFooter.vue'
 import AppHeader from '@/components/layout/AppHeader.vue'
 
 onMounted(() => { document.title = 'Direitos Autorais | Petly' })
@@ -16,5 +16,5 @@ onMounted(() => { document.title = 'Direitos Autorais | Petly' })
     <CopyrightContent />
     <CopyrightCta />
   </main>
-  <CopyrightFooter />
+  <AppFooter />
 </template>

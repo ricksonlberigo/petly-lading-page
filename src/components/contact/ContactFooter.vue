@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import { Mail, MapPin, MessageCircle } from '@lucide/vue'
 import { contactInfo } from '@/constants/contact'
-import { footerNavigationGroups } from '@/constants/footerNavigation'
 import FooterBottom from '@/components/layout/FooterBottom.vue'
+import FooterNavigation from '@/components/layout/FooterNavigation.vue'
 import SocialLinks from '@/components/layout/SocialLinks.vue'
-import { useFooterNavigation } from '@/composables/useFooterNavigation'
-
-const { isFooterLinkActive } = useFooterNavigation()
 </script>
 
 <template>
@@ -17,16 +14,7 @@ const { isFooterLinkActive } = useFooterNavigation()
         <p>O sistema de gestão feito para pet shops que querem crescer com organização e carinho.</p>
         <SocialLinks />
       </div>
-      <div v-for="group in footerNavigationGroups" :key="group.title">
-        <h2>{{ group.title }}</h2>
-        <a
-          v-for="link in group.links"
-          :key="link.label"
-          :href="link.href"
-          :class="{ 'footer-link--active': isFooterLinkActive(link.href) }"
-          :aria-current="isFooterLinkActive(link.href) ? 'page' : undefined"
-        >{{ link.label }}</a>
-      </div>
+      <FooterNavigation />
       <div class="contact-footer__contact">
         <h2>Contato</h2>
         <a :href="contactInfo.whatsappHref"><MessageCircle />{{ contactInfo.whatsappDisplay }}</a>

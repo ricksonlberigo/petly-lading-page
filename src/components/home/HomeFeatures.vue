@@ -13,7 +13,7 @@ import { features } from '@/data/features'
           <picture>
             <source
               media="(min-width: 1101px)"
-              srcset="/assets/responsive/petly-mockup-tablet-360.webp"
+              srcset="/assets/responsive/petly-mockup-tablet-720.webp"
             />
             <source
               srcset="
@@ -25,7 +25,7 @@ import { features } from '@/data/features'
             />
             <img
               class="device-mockups__tablet"
-              src="/assets/responsive/petly-mockup-tablet-360.webp"
+              src="/assets/responsive/petly-mockup-tablet-720.webp"
               alt="Petly exibindo o cadastro de um pet em um tablet"
               width="1536"
               height="1024"

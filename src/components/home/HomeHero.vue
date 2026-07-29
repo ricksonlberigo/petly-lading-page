@@ -54,7 +54,7 @@ import { trackEvent } from '@/services/analyticsService'
         <div class="hero-visual__dashboard-frame">
           <img
             class="hero-visual__dashboard"
-            src="/assets/responsive/petly-dashboard-desktop-640.webp"
+            src="/assets/responsive/petly-dashboard-desktop-960.webp"
             alt="Dashboard de gestão do Petly"
             width="1672"
             height="941"

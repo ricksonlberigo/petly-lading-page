@@ -29,7 +29,7 @@
   --radius-pill: 999px;
   --shadow-sm: 0 8px 24px rgba(1, 45, 100, 0.06);
   --shadow-md: 0 18px 44px rgba(1, 45, 100, 0.11);
-  --font-family: Inter, "Segoe UI", Arial, sans-serif;
+  --font-family: "Inter Variable", "Segoe UI", Arial, sans-serif;
   --transition-fast: 180ms ease;
   --transition-base: 280ms ease;
   --container-width: 1240px;

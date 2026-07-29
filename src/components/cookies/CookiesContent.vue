@@ -28,7 +28,13 @@ import { cookiePolicySections, cookieTypes } from '@/data/cookies'
             <ul v-if="section.bullets">
               <li v-for="bullet in section.bullets" :key="bullet">{{ bullet }}</li>
             </ul>
-            <div v-if="section.id === 'cookie-types'" class="cookie-table-wrap">
+            <div
+              v-if="section.id === 'cookie-types'"
+              class="cookie-table-wrap"
+              role="region"
+              aria-label="Tabela de tipos de cookies. Deslize horizontalmente para ver todas as colunas."
+              tabindex="0"
+            >
               <table>
                 <thead>
                   <tr><th>Tipo de cookie</th><th>Finalidade</th><th>Exemplos</th><th>Prazo</th></tr>
