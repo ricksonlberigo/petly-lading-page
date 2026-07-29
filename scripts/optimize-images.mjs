@@ -9,19 +9,19 @@ const imageVariants = [
   {
     source: 'hero-dog-cat.webp',
     name: 'hero-dog-cat',
-    widths: [320, 640],
+    widths: [320, 400, 480, 640],
     quality: 78,
   },
   {
     source: 'petly-dashboard-desktop.webp',
     name: 'petly-dashboard-desktop',
-    widths: [960, 1200, 1600],
+    widths: [640, 960, 1200, 1600],
     quality: 78,
   },
   {
     source: 'petly-mockup-tablet-transparente.webp',
     name: 'petly-mockup-tablet',
-    widths: [480, 720, 1200],
+    widths: [360, 480, 640, 720, 800],
     quality: 78,
   },
   {

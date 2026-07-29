@@ -28,30 +28,33 @@ import { trackEvent } from '@/services/analyticsService'
       </div>
       <div class="hero-visual" aria-label="Visão do sistema Petly">
         <img class="hero-visual__blob" src="/assets/hero-blob.svg" alt="" width="800" height="600" />
-        <img
-          class="hero-visual__pets"
-          src="/assets/responsive/hero-dog-cat-640.webp"
-          srcset="
-            /assets/responsive/hero-dog-cat-320.webp 320w,
-            /assets/responsive/hero-dog-cat-640.webp 640w
-          "
-          sizes="(min-width: 1101px) 30vw, (min-width: 851px) 54vw, 62vw"
-          alt="Cachorro e gato juntos"
-          width="1024"
-          height="1536"
-          decoding="async"
-          fetchpriority="high"
-        />
+        <picture>
+          <source
+            media="(min-width: 851px)"
+            srcset="/assets/responsive/hero-dog-cat-320.webp"
+          />
+          <source
+            srcset="
+              /assets/responsive/hero-dog-cat-320.webp 320w,
+              /assets/responsive/hero-dog-cat-400.webp 400w,
+              /assets/responsive/hero-dog-cat-480.webp 480w
+            "
+            sizes="62vw"
+          />
+          <img
+            class="hero-visual__pets"
+            src="/assets/responsive/hero-dog-cat-320.webp"
+            alt="Cachorro e gato juntos"
+            width="1024"
+            height="1536"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </picture>
         <div class="hero-visual__dashboard-frame">
           <img
             class="hero-visual__dashboard"
-            src="/assets/responsive/petly-dashboard-desktop-1200.webp"
-            srcset="
-              /assets/responsive/petly-dashboard-desktop-960.webp 960w,
-              /assets/responsive/petly-dashboard-desktop-1200.webp 1200w,
-              /assets/responsive/petly-dashboard-desktop-1600.webp 1600w
-            "
-            sizes="(min-width: 851px) 62vw, 96vw"
+            src="/assets/responsive/petly-dashboard-desktop-640.webp"
             alt="Dashboard de gestão do Petly"
             width="1672"
             height="941"

@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp'
+import BrandIcon from '@/components/ui/BrandIcon.vue'
 import { contactInfo } from '@/constants/contact'
 import { trackEvent } from '@/services/analyticsService'
 </script>
@@ -6,17 +10,17 @@ import { trackEvent } from '@/services/analyticsService'
 <template>
   <div class="social-links" aria-label="Redes sociais">
     <a href="#" aria-label="Instagram">
-      <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+      <BrandIcon :icon="faInstagram" />
     </a>
     <a href="#" aria-label="Facebook">
-      <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+      <BrandIcon :icon="faFacebookF" />
     </a>
     <a
       :href="contactInfo.whatsappHref"
       aria-label="WhatsApp"
       @click="trackEvent('whatsapp_click')"
     >
-      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+      <BrandIcon :icon="faWhatsapp" />
     </a>
   </div>
 </template>

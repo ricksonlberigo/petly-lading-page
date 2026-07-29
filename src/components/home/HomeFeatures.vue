@@ -10,21 +10,29 @@ import { features } from '@/data/features'
         <h2>Tudo que seu pet shop<br />precisa, <span>em um só sistema.</span></h2>
         <p>Do atendimento à gestão financeira, o Petly centraliza suas operações para você focar no que realmente importa: seus clientes e seus pets.</p>
         <div class="device-mockups">
-          <img
-            class="device-mockups__tablet"
-            src="/assets/responsive/petly-mockup-tablet-720.webp"
-            srcset="
-              /assets/responsive/petly-mockup-tablet-480.webp 480w,
-              /assets/responsive/petly-mockup-tablet-720.webp 720w,
-              /assets/responsive/petly-mockup-tablet-1200.webp 1200w
-            "
-            sizes="(min-width: 1101px) 39vw, (min-width: 601px) 70vw, 95vw"
-            alt="Petly exibindo o cadastro de um pet em um tablet"
-            width="1536"
-            height="1024"
-            loading="lazy"
-            decoding="async"
-          />
+          <picture>
+            <source
+              media="(min-width: 1101px)"
+              srcset="/assets/responsive/petly-mockup-tablet-360.webp"
+            />
+            <source
+              srcset="
+                /assets/responsive/petly-mockup-tablet-480.webp 480w,
+                /assets/responsive/petly-mockup-tablet-640.webp 640w,
+                /assets/responsive/petly-mockup-tablet-720.webp 720w
+              "
+              sizes="(min-width: 601px) 580px, 95vw"
+            />
+            <img
+              class="device-mockups__tablet"
+              src="/assets/responsive/petly-mockup-tablet-360.webp"
+              alt="Petly exibindo o cadastro de um pet em um tablet"
+              width="1536"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
           <img
             class="device-mockups__phone"
             src="/assets/responsive/petly-dashboard-phone-200.webp"

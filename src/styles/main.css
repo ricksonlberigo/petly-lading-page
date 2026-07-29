@@ -328,8 +328,7 @@ p, h1, h2, h3 { margin-top: 0; }
 .site-footer__grid > div:not(:first-child) > a { display: block; margin: 10px 0; color: var(--color-text-secondary); font-size: .78rem; }
 .social-links { display: flex; gap: 13px; }
 .social-links a { display: grid; width: 24px; height: 24px; place-items: center; color: var(--color-primary); }
-.social-links i,
-.social-links .svg-inline--fa {
+.social-links svg {
   display: block;
   width: 20px !important;
   height: 20px;

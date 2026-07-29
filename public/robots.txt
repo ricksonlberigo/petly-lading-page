@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://petly-lading-page.vercel.app/sitemap.xml
